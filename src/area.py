@@ -3,7 +3,7 @@ import unittest
 class Area():
 
     def quadrada(self):
-        return 25
+        return self.lado1 * self.lado2
 
     def cubica(self):
-        return 24
+        return self.lado1 * self.lado2 * self.lado3
